@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/font/css/fontawesome.css" rel="stylesheet">
+     <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>REM Sko</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" id="logo">REM</a>
+            <div>
+                <i class="fa-regular fa-user" style="color: #d2b48c;"></i>
+                <a href="Shopping_cart.html"><i class="fa-solid fa-cart-shopping" style="color: #D2B48C;"></i></a>            </div>
+            <ul class="navbar">
+                <li><a href="products.html">Alle Produkter</a></li>
+                <li><a href="#">Populært</a></li>
+                <li><a href="#">Salg</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="checkout-form">
+            <h1>Checkout</h1>
+            <div class="order-summary">
+                <!-- List of products in the shopping cart with their names, quantities, and prices -->
+                <ul class="cart-items">
+                    <li>
+                        <img src="https://placehold.co/400" alt="Bilde av sko 1">
+                        <span class="item-name">Produkt 1</span>
+                        <span class="item-quantity">x 1</span>
+                        <span class="item-price">1,299 kr</span>
+                    </li>
+                    <!-- Add more items as needed -->
+                </ul>
+                <div class="total">
+                    Total: 1,299 kr
+                </div>
+            </div>
+            <form>
+                <label for="name">Navn</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Epost</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="address">Addresse</label>
+                <input type="text" id="address" name="address" required>
+
+                <label for="city">By</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="postal-code">Post kode</label>
+                <input type="text" id="postal-code" name="#" required>
+
+                <button type="submit">Gå videre til betaling</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Om oss</a></li>
+                <li><a href="index.html">Newsletter</a></li>
+                <li><a href="index.html">Kontakt oss</a></li>
+            </ul>
+        </nav>
+        <ul id="social-icons">
+            <li>F</li>
+            <li>I</li>
+            <li>X</li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
