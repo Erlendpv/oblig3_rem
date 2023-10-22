@@ -50,6 +50,8 @@ nav i{
    
 }
 
+«/*Funnet via chat gpt*/»
+
 .navbar a:hover, .navbar a:active {
     text-decoration: underline; 
 }
@@ -113,44 +115,44 @@ button{
     border: none;
     cursor: pointer;
 }
-.checkout {
+.checkout{
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.checkout h1 {
+.checkout h1{
     font-size: 24px;
     margin: 0;
 }
 
-.order-summary {
+.ordre{
     padding: 20px;
     border: 1px solid #ddd;
     margin-top: 20px;
 }
 
-.cart-items {
+.handlevogn-innhold{
     list-style: none;
     padding: 0;
 }
 
-.cart-items li {
+.handlevogn-innhold li{
     display: flex;
     justify-content: space-between;
     margin: 10px 0;
 }
 
-.item-name{
+.produkt-navn{
     flex: 2;
 }
 
-.item-quantity{
+.produkt-kvantitet{
     flex: 1;
 }
 
-.item-price{
+.produkt-pris{
     flex: 1;
     text-align: right;
 }
@@ -194,7 +196,7 @@ footer nav ul{
 footer nav ul li a{
     margin: 0.1rem;
 }
-
+«/*Hentet fra tiligere oppgave*/»
 #social-icons{
     list-style: none;
     text-align: center;
