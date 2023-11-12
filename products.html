@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/font/css/fontawesome.css" rel="stylesheet">
-     <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
     <link href="css/font/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--Meta data tillegg-->
+    <meta name="description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta name="keywords" content="sko, sneakers, adidas, nike, puma, joggesko, ">
+    <meta name="author" content="Erlend Vikan">
+    <!--OG meta som facebook også bruker-->
+    <meta property="og:title" content="REM Sko">
+    <meta property="og:description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta property="og:image" content="img/adidas_sko.png">
+    <meta property="og:url" content="https://itstud.hiof.no/~erlendpv/oblig3_rem/products.html">
+    <!--Twitter meta-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta name="twitter:image" content="img/adidas_sko.png">
+
     <title>REM Sko</title>
 </head>
 <body>
@@ -15,23 +29,31 @@
             <a href="index.html" id="logo">REM</a>
             <div>
                 <i class="fa-regular fa-user" style="color: #d2b48c;"></i>
-                <a href="Shopping_cart.html"><i class="fa-solid fa-cart-shopping" style="color: #D2B48C;"></i></a>            </div>
-            <ul class="navbar">
+                <a href="Shopping_cart.html" aria-label="Handlekurv"><i class="fa-solid fa-cart-shopping" style="color: #D2B48C;">Kurv</i></a>
+            </div>
+            <ul class="navbar" role="navigation">
                 <li><a href="products.html">Alle Produkter</a></li>
-                <li><a href="#">Populært</a></li>
+                <li><a href="analyse.html">Analyse</a></li>
                 <li><a href="#">Salg</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="produkt">
-            <img src="https://placehold.co/400" alt="Bilde av sko 1">
-            <h2>Produkt 1</h2>
+        <section class="produkt" itemscope itemtype="http://schema.org/Product">
+            <img itemprop="image" src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko">
+            <h2>Adidas Originals</h2>
             <div class="produkt-detaljer">
-                <h1>Produkt 1</h1>
-                <p>Disse skoene er joggesko med et stilrent design produsert av Produsent. Produkt 1 har optimal demping som passer til jogging, men med sitt design så passer de til generelt bruk.</p>
-                <p><strong>Pris:</strong> 1 299 kr</p>
-                <a href="Shopping_cart.html" style="color: #D2B48C; text-decoration: none;">legg til i handlekurv</a>
+                <h1 itemprop="name">Forum 84 low</h1>
+                <p itemprop="description">Adidas originals forum 84 low skoene er joggesko med et stilrent design produsert av Produsent. Produkt 1 har optimal demping som passer til jogging, men med sitt design så passer de til generelt bruk.</p>
+                <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/aggregateRating">
+                    <meta itemprop="reviewCount" content="53">
+                    <meta itemprop="ratingValue" content="4.8">
+                </div>
+                <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                    <meta itemprop="priceCurrency" content="NOK">
+                    <span itemprop="price" content="1200.00">1200,00 kr</span>
+                </div>
+                <a href="Shopping_cart.html" style="color: #D2B48C; text-decoration: none;" itemprop="url">legg til i handlekurv</a>
             </div>
         </section>
     </main>
@@ -43,7 +65,7 @@
                 <li><a href="index.html">Kontakt oss</a></li>
             </ul>
         </nav>
-        <ul id="social-icons">
+        <ul id="social-icons" aria-label="Social Media Icons">
             <li>F</li>
             <li>I</li>
             <li>X</li>

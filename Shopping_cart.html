@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/font/css/fontawesome.css" rel="stylesheet">
-     <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
     <link href="css/font/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--Meta data tillegg-->
+    <meta name="description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta name="keywords" content="sko, sneakers, adidas, nike, puma, joggesko, ">
+    <meta name="author" content="Erlend Vikan">
+    <!--OG meta som facebook også bruker-->
+    <meta property="og:title" content="REM Sko">
+    <meta property="og:description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta property="og:image" content="img/adidas_sko.png">
+    <meta property="og:url" content="https://itstud.hiof.no/~erlendpv/oblig3_rem/Shopping_cart.html">
+    <!--Twitter meta-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta name="twitter:image" content="img/adidas_sko.png">
+
     <title>REM Sko</title>
 </head>
 <body>
@@ -15,10 +29,11 @@
             <a href="index.html" id="logo">REM</a>
             <div>
                 <i class="fa-regular fa-user" style="color: #d2b48c;"></i>
-                <a href="Shopping_cart.html"><i class="fa-solid fa-cart-shopping" style="color: #D2B48C;"></i></a>            </div>
-            <ul class="navbar">
+                <a href="Shopping_cart.html" aria-label="Handlekurv"><i class="fa-solid fa-cart-shopping" style="color: #D2B48C;">Kurv</i></a>
+            </div>
+            <ul class="navbar" role="navigation">
                 <li><a href="products.html">Alle Produkter</a></li>
-                <li><a href="#">Populært</a></li>
+                <li><a href="analyse.html">Analyse</a></li>
                 <li><a href="#">Salg</a></li>
             </ul>
         </nav>
@@ -29,8 +44,8 @@
             <div class="ordre">
                 <ul class="handlevogn-innhold">
                     <li>
-                        <img src="https://placehold.co/400" alt="Bilde av sko 1">
-                        <span class="produkt-navn">Produkt 1</span>
+                        <img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko">
+                        <span class="produkt-navn">Forum 84 low</span>
                         <span class="produkt-kvantitet">x 1</span>
                         <span class="produkt-pris">1,299 kr</span>
                     </li>
@@ -67,7 +82,7 @@
                 <li><a href="index.html">Kontakt oss</a></li>
             </ul>
         </nav>
-        <ul id="social-icons">
+        <ul id="social-icons" aria-label="Social Media Icons">
             <li>F</li>
             <li>I</li>
             <li>X</li>

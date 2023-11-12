@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/font/css/fontawesome.css" rel="stylesheet">
-     <link href="css/font/css/brands.css" rel="stylesheet">
+    <link href="css/font/css/brands.css" rel="stylesheet">
     <link href="css/font/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--Meta data tillegg-->
+    <meta name="description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta name="keywords" content="sko, sneakers, adidas, nike, puma, joggesko, ">
+    <meta name="author" content="Erlend Vikan">
+    <!--OG meta som facebook også bruker-->
+    <meta property="og:title" content="REM Sko">
+    <meta property="og:description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta property="og:image" content="img/adidas_sko.png">
+    <meta property="og:url" content="https://itstud.hiof.no/~erlendpv/oblig3_rem/index.html">
+    <!--Twitter meta-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="REM sko er en skobutikk med sporty, casual og stilrene sko">
+    <meta name="twitter:image" content="img/adidas_sko.png">
+
     <title>REM Sko</title>
 </head>
 <body>
@@ -15,46 +29,46 @@
             <a href="index.html" id="logo">REM</a>
             <div>
                 <i class="fa-regular fa-user" style="color: #d2b48c;"></i>
-                <a href="Shopping_cart.html"><i class="fa-solid fa-cart-shopping" style="color: #D2B48C;"></i></a>
+                <a href="Shopping_cart.html" aria-label="Handlekurv"><i class="fa-solid fa-cart-shopping" style="color: #D2B48C;">Kurv</i></a>
             </div>
-            <ul class="navbar">
+            <ul class="navbar" role="navigation">
                 <li><a href="products.html">Alle Produkter</a></li>
-                <li><a href="#">Populært</a></li>
+                <li><a href="analyse.html">Analyse</a></li>
                 <li><a href="#">Salg</a></li>
             </ul>
         </nav>
     </header>
     <main class="hjemme">
         <section class="default-flex">
-            <a href="products.html"><img src="https://placehold.co/400" alt="Bilde av sko 1"></a>
-            <a href="products.html"><h2>Produkt 1</h2></a>
+            <a href="products.html" aria-labelledby="product1-label"><img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko"></a>
+            <a href="products.html"><h2>Forum 84 low</h2></a>
         </section>
         <section>
-            <a href="products.html"><img src="https://placehold.co/400" alt="Bilde av sko 2"></a>
+            <a href="#"><img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko"></a>
             <h2>Produkt 2</h2>
         </section>
         <section>
-            <a href="products.html"><img src="https://placehold.co/400" alt="Bilde av sko 3"></a>
+            <a href="#"><img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko"></a>
             <h2>Produkt 3</h2>
         </section>
         <section>
-            <a href="products.html"><img src="https://placehold.co/400" alt="Bilde av sko 4"></a>
+            <a href="#"><img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko"></a>
             <h2>Produkt 4</h2>
         </section>
         <section>
-            <a href="products.html"><img src="https://placehold.co/400" alt="Bilde av sko 5"></a>
+            <a href="#"><img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko"></a>
             <h2>Produkt 5</h2>
         </section>
         <section>
-            <a href="products.html"><img src="https://placehold.co/400" alt="Bilde av sko 6"></a>
+            <a href="#"><img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko"></a>
             <h2>Produkt 6</h2>
         </section>
         <section>
-            <a href="products.html"><img src="https://placehold.co/400" alt="Bilde av sko 7"></a>
+            <a href="#"><img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko"></a>
             <h2>Produkt 7</h2>
         </section>
         <section>
-            <a href="products.html"><img src="https://placehold.co/400" alt="Bilde av sko 8"></a>
+            <a href="#"><img src="img/adidas_sko.png" alt="Bilde av adidas originals forum 84 low sko"></a>
             <h2>Produkt 8</h2>
         </section>
         
@@ -67,7 +81,7 @@
                 <li><a href="index.html">Kontakt oss</a></li>
             </ul>
         </nav>
-        <ul id="social-icons">
+        <ul id="social-icons" aria-label="Social Media Icons">
             <li>F</li>
             <li>I</li>
             <li>X</li>
